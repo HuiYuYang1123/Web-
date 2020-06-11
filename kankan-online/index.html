@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>kankan网店</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<link href="css/css.css" type="text/css" rel="stylesheet" />
+
+
+ 	   				 	   									  		  	  	   			   
+<!-- 二、原因在这里
+
+1、如果要以百分比设置元素（div）的尺寸，必要以父元素的尺寸作为参考，如果父元素没有设置尺寸，那么子元素（div）尺寸自然不会生效。
+2、所以如果设置div的高度为100%，那么他的参考元素就是是body，那么如何设置body的尺寸呢？
+3、在怪异模式下，body可以作为根元素，设置它的高度为100%的时候（不考虑外边距），body的高度取是浏览器的高度。
+4、在标准模式下，html元素才是根节点，div的父元素是body，body的父元素是html，然后html设置为100%，取得是浏览器的高度，body高度设置为100%，得到的是html的的高度，所以最好同时设置html,body{height: 100%;width: 100%;}。
+5、因为默认body的margin:8px,所以如果div想占据全屏，需要设置*{margin: 0;padding: 0;}
+
+				  		   	-->
+</head>
+
+<body>
+<div class="ttj" style="position:absolute; top:500px; right:10px;">
+	<h1 align="center"><font color="#999999">用户登录</font></h1>
+    <p align="center"><span>用户名：</span><input type="text" style="width:180px; height:20px;"/></p>
+    <p>&nbsp;</p>
+    <p align="center"><span>密&nbsp;&nbsp;&nbsp;码：</span><input type="text" style="width:180px; height:20px;"/></p>
+    <p>&nbsp;</p>
+    <p align="center"><span>邮&nbsp;&nbsp;&nbsp;箱：</span><input type="text" style="width:180px; height:20px;"/></p>
+    <p>&nbsp;</p>
+    <p align="center"><input type="submit" value="注册" style="color:#999; width:50px; height:30px;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input type="reset" value="重置" style="color:#999; width:50px; height:30px;"/></p>
+	</div>
+    
+
+<!-- 顶部模块制作-->
+<header class="biaotou ">
+             <div class="absorb">
+                             <div class="propose">
+                                  <ul>
+                                      <li><a href="#">kan优品欢迎您</a></li>
+                                               <li><a href="#">请登录</a></li>
+                                      <li><a href="#" ><font color="#FF0000">免费注册</font></a></li>
+                                  </ul>
+
+
+
+                           </div>
+                          <div class="violet">
+                                 <ul>
+                                    <li>我的订单</li>
+                                      <li></li>
+                                   <li class="wodeyoupin">我的优品gou</li>
+                                    <li></li>
+                                     <li>企业采购</li>
+                                      <li></li>
+                                       <li>关注kan优品</li>
+                                        <li></li>
+                                       <li class="wodeyoupin">客户服务</li>
+                                          <li></li>
+                                         <li class="wodeyoupin">kan优品会员</li>
+                                         <li></li>
+                                          <li class="wodeyoupin">网站导航</li>
+                               </ul>
+                          </div>
+
+  </div>
+<!--中间模块制作 -->
+<div class="logo">
+<h1><a href="# " target="_blank" title="kan优品" class="acc">kan优品</a></h1>
+
+<div class="cebianlan">
+
+<span class="logoxia"> 全部商品分类</span>
+<ul>
+<li ><a href="#">家用电器</a></li>
+<li><a href="#">手机</a><a href="#">数码</a><a href="#">通信</a></li>
+<li><a href="#">电脑</a><a href="#">办公</a></li>
+<li><a href="#">家居</a><a href="#">家具 </a><a href="#">家装</a><a href="#">厨具</a></li>
+<li><a href="#">男装</a><a href="#">女装</a><a href="#">童装</a><a href="#">内衣</a></li>
+<li><a href="#">个体户装</a><a href="#">清洁用具</a><a href="#">宠物</a></li>
+<li><a href="#">鞋靴,</a><a href="#">箱包，</a><a href="#">珠宝，</a><a href="#">奢侈品</a></li>
+<li><a href="#">运动户外</a><a href="#">钟表</a></li>
+<li><a href="#">汽车</a><a href="#">汽车用品</a></li>
+<li><a href="#">母婴</a><a href="#">玩具</a><a href="#">乐器</a></li>
+<li><a href="#">彩票</a><a href="#">旅游</a><a href="#">充值</a><a href="#">票务</a></li>
+<li><a href="#">食品</a><a href="#">酒类</a><a href="#">生鲜</a><a href="#">特产</a></li>
+<li><a href="#">医药保险</a></li>
+<li><a href="#">图书</a><a href="#">音响</a><a href="#">电子书</a></li>
+<li><a href="#">理财</a><a href="#">众筹</a><a href="#">白条</a><a href="#">保险</a></li>
+
+
+
+</ul>
+</div>
+</div>
+                      <div class="search">
+                        <input type="search"  value="输入商品关键字" style="font-size:18px; color:#FF0000; padding-left:10px;"/>
+                        
+                          <button>搜索</button>
+
+  </div>
+                       <div class="headerxia">
+                           <ul>
+                               <li><a href="#" target="_blank"><font color="#FF0000">优惠购首发</font></a></li>
+                               <li><a href="#" target="_blank">亿元优惠</a></li>
+                               <li><a href="#" target="_blank">9.9团购</a></li>
+                               <li><a href="#" target="_blank">每满99减30</a></li>
+                               <li><a href="#" target="_blank">办公用品</a></li>
+                               <li><a href="#" target="_blank">电脑</a></li>
+                               <li><a href="#" target="_blank">通信</a></li>
+                          </ul>
+
+                     </div>
+                    <div class="headeryouce">
+                          <a href="gouwuche.html" target="_blank" style="text-decoration:none "> 我的购物车</a>
+                       <span class="headeryouce1">+8</span>                     </div>
+                   <div class="headerhou">
+                         <ul>
+                               <li><a href="#">服装城</a></li>
+                               <li><a href="#">美妆馆</a></li>
+                                <li><a href="#">kan好超市</a></li>
+                                <li><a href="#">全球购</a></li>
+                                <li><a href="#">闪购</a></li>
+                                <li><a href="#">团购</a></li>
+                                <li><a href="#">拍卖</a></li>
+                                <li><a href="#">有趣</a></li>
+
+
+
+
+                       </ul>
+
+
+
+</div>
+</header>
+<div id="container">
+    <div id="photo">
+      <img src="image/4b0983e9.jpg"  width= "500px" height= "500px"/>
+      <img src="image/e5db1df43ba48a2e.jpg.webp.jpg"  width= "500px" height= "500px"/>
+      <img src="image/1821bce5113f73ac.jpg.webp.jpg"   width= "500px" height= "500px"/>
+      <img src="image/a0a920b67e2b8483.jpg.webp.jpg" width= "500px" height= "500px" />
+      <img src="image/590x470.jpg"  width= "500px" height= "500px" />
+    </div>
+</div>
+
+<div class="zhekoujia">
+<span class="zhekoujia1">美丽人生</span>
+<span class="zhekoujia2">FASHION & BEAUTY</span>
+<div class="zhekoujia3">
+  <img src="image/pianyi.jpg" width="240px" height="480"/>
+  <div class="zhekoujia4">
+<div class="zhekoujia5">男女装预售</div>
+<div class="zhekoujia6">惊喜大放送低至五折起</div>
+
+  </div>
+</div>
+</div>
+<div class="recommend " >
+  <a href="#"><img src="image/oo.jpg" alt="喜欢就点" width="1266" height="150px"></a>
+  
+  
+</div>
+<!--购买东西商城 -->
+<div class="recommend_b">
+<ul>
+<li> <img src="image/355835833.jpg" width="182" height="225" /> <p>价格：150￥</p></li>
+<li><img src="image/-382858132.jpg"   width="182" height="225"/><p>价格：140￥</li>
+<li><img src="image/912648073.jpg"  width="182" height="225"/><p>价格：120￥</li>
+<li><img src="image/1429022365.jpg" width="182" height="225"/><p>价格：100￥</li>
+<li><img src="image/-1334337581.jpg" width="182" height="225"/><p>价格：130￥</li>
+
+
+</ul>
+
+
+
+</div>
+<!-- 底部模块制作-->
+<footer class="footer w">
+
+<div class="mod_service">
+<ul>
+<li><h5></h5>
+ <div class="service_txt">
+ <h4>正品保障</h4>
+ <p>正品保障 提供发票</p>
+ 
+ </div>
+ </li>
+<li><h5></h5>
+ <div class="service_txt">
+ <h4>急速物流</h4>
+ <p>急速物流, 急速送达</p>
+ 
+ </div></li>
+<li>
+ <h5></h5>
+ <div class="service_txt">
+ <h4>无忧售后</h4>
+ <p>无忧售后, 七日内无理由退换货</p>
+ </div></li>
+<li>
+ <h5></h5>
+ <div class="service_txt">
+ <h4>特色服务</h4>
+ <p>特色服务，私人定制家电套餐</p>
+ </div></li>
+
+</ul>
+
+
+
+
+</div>
+<div class="mod_help">
+        <dl>
+            <dt>购物指南</dt>
+                <dd><a href="#">购物流程</a></dd>
+                <dd><a href="#">会员介绍</a></dd>
+                <dd><a href="#">生活旅行/团购</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+                <dd><a href="#">联系客服</a></dd>
+                
+
+       </dl>
+
+         <dl>
+            <dt>配送方式</dt>
+                <dd><a href="#">上门自提</a></dd>
+                <dd><a href="#">211现时到</a></dd>
+                <dd><a href="#">配送服务查询</a></dd>
+                <dd><a href="#">配送收取标准</a></dd>
+                <dd><a href="#">海外配送</a></dd>
+                
+
+       </dl>
+        <dl>
+            <dt>支付方式</dt>
+                <dd><a href="#">货到付款</a></dd>
+                <dd><a href="#">在线支付</a></dd>
+                <dd><a href="#">分期付款</a></dd>
+                <dd><a href="#">邮递付款</a></dd>
+                <dd><a href="#">公司转账</a></dd>
+                
+
+       </dl>
+        <dl>
+            <dt>售后服务</dt>
+                <dd><a href="#">售后政策</a></dd>
+                <dd><a href="#">价格保护</a></dd>
+                <dd><a href="#">退款说明</a></dd>
+                <dd><a href="#">返钱/退换货</a></dd>
+                <dd><a href="#">取消订单</a></dd>
+                
+
+       </dl>
+<dl>
+            <dt>特色服务</dt>
+                <dd><a href="#">夺宝岛</a></dd>
+                <dd><a href="#">DIY装机</a></dd>
+                <dd><a href="#">延保服务</a></dd>
+                <dd><a href="#">kan优品卡</a></dd>
+                <dd><a href="#">kan优品通信</a></dd>
+                
+
+    </dl>
+
+         <dl>
+            <dt>帮助中心</dt>
+                <dd><img src="image/yang.jpg" width="100px" height="100px" />
+                <h4><font size="2px" color="#333333">kan优品客户端</font></h4>
+                </dd>
+               
+                
+
+       </dl>
+
+ </div>
+     <div class="footerhou">
+      <div class="footerhou1">
+ 
+        <ul>
+          <li>关于我们</li>
+          <li>联系我们</li>
+          <li>联系客服</li>
+          <li>商家入驻</li>
+          <li>营销中心</li>
+          <li>手机kan优购</li>
+          <li>友情链接</li>
+          <li>销售联盟</li>
+          <li>kan优购社区</li>
+          <li>kan优购公益</li>
+          <li>English</li>
+        
+        
+        </ul>
+ 
+      </div><br/>
+      <div class="footerhou2">
+      <p>&nbsp;</p>
+      <p>Copyright© 2002-2020，kan优品购物集团股份有限公司版权所有| 苏公网安备 32010202010078号| 苏ICP备10207551号-4</p>
+      <br/>
+      <h4>合字B2-20180025| 合字A1.B1.B2-20180017| 出版物经营许可证新出发苏批字第A-243号 | 互联网药品信息服务资格证书（苏）-非经营性-2016-0005</h4>
+      <h4>本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外</h4>
+      </div>
+   </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,458 @@
+/* 声明字体图标 这里一定要注意路径问题*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?2jdepb');
+  src:  url('../fonts/icomoon.eot?2jdepb#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?2jdepb') format('truetype'),
+    url('../fonts/icomoon.woff?2jdepb') format('woff'),
+    url('../fonts/icomoon.svg?2jdepb#icomoon') format('svg');
+       font-weight: normal;
+       font-style: normal;
+       font-display: block;
+}
+
+.html{width:100%；}
+
+
+*,*:before,*:after{ margin:0px;
+                   padding:0px;
+				   box-sizing:border-box;}
+   .body{ box-sizing:border-box;
+         width:100%
+         
+      
+       }
+
+/* 创建网页表头部分*/
+.biaotou{
+	    position:relative;
+	     height:200px;
+          width:93%;
+		 margin-top:10px;
+	margin:10px auto;
+		 border-bottom:4px #FF0000 solid ;}
+
+/* 白头最上方一部分*/
+.absorb{ 
+          position:absolute;
+	     width:95%;
+         height:35px;
+		  top:2px;
+		  background:#CCCCCC;}
+.propose{ width:40%;
+          height:45px;
+		  margin-left:10px;
+		  margin-top:2px;
+		  float:left;
+		  
+		   }	
+.propose ul li{ list-style:none;
+               float:left;
+			   margin-left:15px;
+				margin-top:10px
+				
+			  }	
+.propose ul li	a{ 
+                  color:#333333;
+				  text-decoration:none;
+				  font-size:0.75em;
+				  }	
+
+	 /* 我的订单*/ 	
+.violet{width:58%;
+        height:100%;
+		margin:auto;
+		float:right;
+		
+		font-size:0.8em;
+		 }	
+.violet ul li{list-style:none;
+             float:left;
+		
+			  margin-left:10px;
+				margin-top:10px
+			  }	
+
+  		
+ .violet ul li:nth-child(even){
+	              width:1px;
+				   height:20px;
+				   background:#000000;
+				   margin:10px 15px;}
+ .wodeyoupin::after{
+	   content:'';
+	   font-family:'icomoon';
+	  
+	   }
+	   /* 左侧logo图片*/
+.logo{  position:absolute;
+	    width:220px;
+       height:150px; 
+	   top:58px;
+	   left:45px;
+	   }
+
+	   
+.logo .acc{ height:90px;
+           width:245px;
+		 display:block;
+		 background:url(../image/logo.png) no-repeat;
+		   font-size:0px; }
+		   
+.logoxia{   width:100%;
+           height:50px;
+		   display:block;
+		    text-align:center;
+			font-size:0.8em;
+			padding-top:10px;
+			 background:#CC0000;}		   
+		 	
+/* logo里下方内容*/			 
+.cebianlan{ width:220px;
+            height:675px;
+			margin-top:6px;
+			border: 2px solid #FF0000;
+			background:#FF0000;} 
+.cebianlan ul li{ list-style:none;
+                 width:100%;
+				  height:30px;
+				  margin-top:10px;
+				 font-size:0.98em;
+				  
+				 
+}			
+.cebianlan ul li a{ color:#000000;
+                  display:inline-block;
+				   text-decoration:none;
+				    margin-left:6px;
+				font-size:0.8em;
+				padding-top:8px;}
+.cebianlan ul li::after{
+	                    content:'>';
+						 color:#333333;
+						 position:absolute;
+						 right:25px;
+					     margin-top:6px;
+						}				
+.cebianlan ul li:hover{ background:#FFFFFF;
+                          opacity:10s;
+                       }					
+.cebianlan ul li a:hover{ color:#FF0000;}	
+	/* 搜索框*/		 
+.search	{ position:absolute;
+        
+          height:30px;
+		  left:450px;
+		  top:90px;
+		  border:0px;}
+		   
+.search input{ height:100%;
+               width:400px;
+			   border-color:#FF0000;
+			   float:left;
+			   }	
+		   
+			   
+.search button{ width:70px;
+                 height:100%;
+				 background:#FF0000;
+				 color:#FFFFFF;
+				 border-radius:10px;
+				 float:left;}
+	/*搜索框下方文字*/			 
+.headerxia{ position:absolute;
+	        height:30px;
+            width:580px; 
+			top:130px;
+			left:455px;}
+.headerxia ul li{ list-style:none;
+                 float:left;}
+				 
+.headerxia ul li a{ margin-left:8px;
+                    color:#666666; 
+					 text-decoration:none;
+					 font-size:0.8em;}
+ 
+	/* 右上方购物车*/			
+.headeryouce{position:absolute;
+              width:110px;
+			  height:26px;
+			  top:100px;
+			  right:120px; 
+			   text-align:center;
+			 
+			   border:1px solid #CCCCCC;}	
+.headeryouce a{ color:#FF0000;
+               font-size:0.8em;}			   
+.headeryouce::after{
+	          content:'';
+	        font-family: 'icomoon';
+			 color:#FF0000;}
+.headeryouce1{ position:absolute;
+               display:block;
+               width:15px;
+			    height:15px;
+				border-radius:10px 10px 10px 0px;
+				background:#FF0000;
+				  top:-14px;
+				  left:60px;
+				  color:#FFFFFF;
+				  font-size:0.8em;
+				  font-weight:bold;
+				 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				  
+				  }	
+/* 服装城这一栏*/
+.headerhou{
+	width: 740px;
+	height: 35px;
+	position: absolute;
+	top: 160px;
+	left: 375px;
+			}				  
+.headerhou ul li{ list-style:none;
+                   float:left;
+				   margin-left:40px;
+				   margin-top:8px;}	
+.headerhou ul li a{ color:#666666;
+                    text-decoration:none;
+					 display:inline-block;
+					 font-size:0.9em;
+					 font-weight:bold; 
+					  font-family:"Times New Roman", Times, serif;
+					  
+					 
+					 }	
+.headerhou ul li a:hover{ color:#FF0000;}					 			   	  
+				  
+	/* 轮播图片代码示例*/			  
+#container{
+	width: 500px;
+	height:500px;
+	margin-left:450px;
+	margin-top:20px;
+	overflow: hidden;
+}	
+#photo {
+	width: 2500px;
+	animation: switch 8s ease-out infinite;
+}
+ 
+#photo > img {
+	float: left;
+	width: 700px;
+	height: 600px;
+}
+ 
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -700px;
+	}
+	70%, 100% {
+		margin-left: -1400px;
+	}
+}
+
+/* 轮播图右侧海报 超燃*/
+.zhekoujia{ width: 200px;
+			height: 380px;
+		    position: absolute;
+		    top: 215px;
+		 
+		    right: 300px;}
+/* 美丽人生*/
+.zhekoujia1{ display: inline-block;
+			 height: 20px;
+			 font-size: 1.2em;
+			 color: black;
+			font-weight: bold;
+		    margin-left: 5px;
+			 }	
+.zhekoujia1::before{
+		  content: '';
+		  font-family: 'icomoon';
+		  color: brown;
+		  margin-top: 3px;
+		  margin-right: 1.5px;
+}			 	
+/*FASHION*/
+.zhekoujia2{ display: inline-block;
+			  font-weight: bold;
+			  height:20px;}
+/*透明背景*/
+.zhekoujia3{ width:100%;
+			height:480px;
+	
+					   }
+/* 透明图片重要部分*/					   
+.zhekoujia4{
+	width: 75%;
+	height: 90px;
+	position: absolute;
+	top: 311px;
+	right: 42px;
+}	
+.zhekoujia5{ width:50%;
+			 height: 100%;
+			background:rgba(0, 0, 0, 0.7);
+			float: left;
+		  color: #CCCCCC;
+		  font-size: 0.9em;
+		 box-sizing: border-box;
+		padding-top: 20px;}	
+	.zhekoujia6{ float: right;
+			   width: 50%;
+			  height: 100%;
+			  background: rgba(37, 35, 35, 0.3) ;
+			  text-align: center;
+			 font-size: 1em ;
+			  color: snow;
+			  box-sizing: border-box;
+		       padding-top: 15px;}		   		 				   			  			   
+/* 右边固定栏 随着滑动而动*/
+.youbianlan{  position:fixed;
+
+	width:300px;
+   height:600px;
+	top:312px;
+	 right:110px;
+	 border:1px solid #CCCCCC;}
+.kanyoupinkuaibao{ display:block;
+                    width:290;
+					height:30px;
+					padding-top:15px;
+					padding-left:23px;
+					font-size:15px;
+					}
+.kanyoupinkuaibao::after{
+	                     content:'更多>';
+						 padding-left:80px;
+						 
+						 }					
+
+.youbianlan1{ width:300px;
+              height:170px;
+			   margin-top:15px;}
+			   
+.youbianlan1 ul li{ 
+                    width:100%;
+					line-height:30px;
+					list-style:none;
+                    margin-left:34px;
+					font-weight:300;
+                   }			   
+.youbianlan2 ul li{ list-style:none;
+                      font-family: 'icomoon';
+					  font-size:71.95px;
+					  float:left; 
+					  margin-top:5px;
+					 margin-left:1.8px;
+					   color:#FF0000;
+					   border:1px dashed #CCCCCC;
+					  
+					   }			   
+	/* 轮播图下宣传海报*/		   
+.recommend{height:150px;
+
+		   margin-top:125px;
+		   margin-left:100px;}
+/* 服装购买宣传*/
+.recommend_b{ height: 400px;
+			 
+			   margin-left: 25px;
+			 margin-top: 15px;
+			 box-sizing:border-box;
+			
+			}
+
+.recommend_b ul li{ list-style:none;
+                     width:245;
+					 height:350px;
+					 float:left;
+					 margin-left:75px;
+					 transition:all 2;
+					
+					 }	
+.recommend_b ul li p{ margin-left:20px;
+                        color:#FF0000;
+						margin-top:20px;
+						font-size:0.9em;}					 
+.recommend_b ul li img:hover{ transform:scale(1.1,1.1);}
+
+
+/* 底部模块制作css*/
+.footer{ 
+         width:100%;
+         background:#CCCCCC; 
+		
+		
+		
+		  }		
+.mod_service{ height:80px;
+              
+              border-bottom:1px solid #666666;}	
+			
+.mod_service ul li{height:60px;
+                    width:240px;
+				
+					 float:left;
+					 margin-left:35px;
+					 list-style:none;
+					  }	
+			
+.mod_service ul li h5{ width:60px;
+                       height:60px;
+					    display:block;
+						float:left;
+					background-image:url("../image/kiki.jpg") no-repeat -80px -120px;
+						margin-left:10px;}
+			
+	.service_txt{ margin-top:8px;
+	             width:260px;
+	              }					
+.service_txt h4{ font-size:0.8em;
+}
+.service_txt p{ font-size:0.8em;}	
+
+.mod_help{height:200px;
+            
+          border-bottom:1px solid #333333;
+		   padding-top:20px;
+		   padding-left:90px;}	
+.mod_help dl dt{ font-size:1em;
+                 margin-bottom:10px;
+				}
+.mod_help dl dd a{ font-size:0.8em;}				
+				
+.mod_help dl{ float:left;
+                width:200px;}	
+			
+ dd a{ color:#333333;
+       text-decoration:none;
+	   margin-top:5px;
+	    display:inline-block;}
+ dd a:hover{ color:#FF0000;}
+ 
+ .mod_help dl:last-child{
+            height:100%; }
+			.footerhou1 ul{ padding-left:50px;}
+.footerhou1 ul li{ list-style:none;
+                   float:left;
+				  margin-left:30px;
+				  margin-top:10px;
+				  font-size:0.9em;
+				
+				   }	
+.footerhou1 ul li::after{ content:'|';
+                          color:#000000;
+						  margin-left:15px;
+						  }		
+.footerhou2{width:100%;
+             
+               }			   
+.footerhou2 p	{ margin-left:200px;}
+	   	.footerhou2 h4{ text-align:center;
+		                    margin-left:-145px;}
